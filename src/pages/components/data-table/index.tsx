@@ -1,7 +1,7 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import { Payment, columns } from "./config/columns";
 import { payments } from "./config/test-data";
-import { DataTable } from "./data-table";
+import { DataTable } from "@/components/ui/data-table";
 import {
   Card,
   CardContent,

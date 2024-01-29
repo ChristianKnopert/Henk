@@ -13,9 +13,18 @@ export const headerConfig = {
       ]
     },
     {
+      title: 'Basics', 
+      href: '/basics',
+      subItems: [
+        {title: 'Types', href:'/types'},
+        {title: 'Types (example)', href:'/types/example'},
+      ]
+    },
+    {
       title: 'Components', 
       href: '/components',
       subItems: [
+        {title: 'AlertDialog', href:'/alert-dialog'},
         {title: 'DataTable', href:'/data-table'},
         {title: 'Select', href:'/select'},
         {title: 'Toast', href:'/toast'},
