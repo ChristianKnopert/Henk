@@ -8,7 +8,7 @@ export type Employee = {
   id: number,
   firstName: string
   lastName: string
-  birthday: Date
+  birthday: string
 }
 
 export const columns: ColumnDef<Employee>[] = [
