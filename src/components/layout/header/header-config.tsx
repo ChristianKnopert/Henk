@@ -5,29 +5,35 @@ export const headerConfig = {
       href: '/',
     },
     {
-      title: 'Test', 
-      href: '/test',
+      title: 'America', 
+      href: '/america',
       subItems: [
-        {title: 'Link 1', href:'#'},
-        {title: 'Link 2', href:'#'},
+        {title: 'America 2022', href:'2022'},
+        {title: 'America 2023', href:'2023'},
       ]
     },
     {
-      title: 'Basics', 
-      href: '/basics',
+      title: 'Belgium', 
+      href: '/belgium',
       subItems: [
-        {title: 'Types', href:'/types'},
-        {title: 'Types (example)', href:'/types/example'},
+        {title: 'Belgium 2022', href:'2022'},
+        {title: 'Belgium 2023', href:'2023'},
       ]
     },
     {
-      title: 'Components', 
-      href: '/components',
+      title: 'Germany', 
+      href: '/germany',
       subItems: [
-        {title: 'AlertDialog', href:'/alert-dialog'},
-        {title: 'DataTable', href:'/data-table'},
-        {title: 'Select', href:'/select'},
-        {title: 'Toast', href:'/toast'},
+        {title: 'Germany 2022', href:'2022'},
+        {title: 'Germany 2023', href:'2023'},
+      ]
+    },
+    {
+      title: 'Switzerland', 
+      href: '/switzerland',
+      subItems: [
+        {title: 'Switzerland 2022', href:'2022'},
+        {title: 'Switzerland 2023', href:'2023'},
       ]
     },
   ]

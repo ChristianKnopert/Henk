@@ -12,29 +12,21 @@ export default function Home() {
     <div className="z-10 max-w-5xl w-full flex flex-col gap-4">
       <Card>
         <CardHeader>
-          <CardTitle>Next.js Example</CardTitle>
+          <CardTitle>Aerial photography of Henk Knopert</CardTitle>
         </CardHeader>
         <CardContent>
-          <p>This repository contains a basic example of a Next.js application. The application is configured to use:</p>
-          <ul className="list-disc list-inside">
-            <li>TypeScript</li>
-            <li>Tailwind (styling)</li>
-            <li>shadcn (UI components)</li>
-          </ul>
+          <p>This website is made to display all the photos made by Henk Knopert.</p>
         </CardContent>
       </Card>
       <Card>
         <CardHeader>
-          <CardTitle>Handy links</CardTitle>
+          <CardTitle>About me:</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="list-disc list-inside flex flex-col">
-            <li>
-              <a href='https://tailwindcss.com/docs/installation'>TailwindCSS Docs</a>
-            </li>
-            <li>
-              <a href='https://ui.shadcn.com/'>shadcn (UI components)</a>
-            </li>
+              <p>Im from</p> 
+              <p>Pizza</p>
+            
           </ul>
         </CardContent>
       </Card>
