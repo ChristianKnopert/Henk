@@ -14,7 +14,7 @@ import {
 import Link from "next/link"
 import { headerConfig } from "./header-config"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode } from "@fortawesome/free-solid-svg-icons"
+import { faCode, faPlaneUp } from "@fortawesome/free-solid-svg-icons"
 
 
 export default function Header() {
@@ -22,7 +22,7 @@ export default function Header() {
     <div className='w-screen h-24 border-b-2 border-black px-8 bg-gray-700'>
       <nav className="h-full flex items-center gap-x-4">
         <Link href='/'>
-          <FontAwesomeIcon icon={faCode} className="w-10 h-10 text-red-500"/>
+          <FontAwesomeIcon icon={faPlaneUp} className="w-10 h-10 text-gray-900"/>
         </Link>
       <NavigationMenu>
         <NavigationMenuList>
