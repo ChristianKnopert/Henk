@@ -74,18 +74,18 @@
     @apply bg-background text-foreground;
   }
 }
-.container{
-padding: 10px;
+
+.container {
+  padding: 10px;
 }
 
 .image-container {
   display: flex;
-  flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
-  justify-content: space-between; /* Spread images out evenly */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .image-container img {
-  width: 33%; /* Set width of each image to 30% of container width */
-  max-width: calc(33% - 5px); /* Limit maximum width and include the pixel gap */
-  margin-bottom: 15px; /* Adjust the margin between images */
+  width: calc(33.33% - 10px); /* Adjust width to fit three images in a row with some padding */
+  margin-bottom: 15px; /* Adjust margin between images */
 }
