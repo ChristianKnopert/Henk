@@ -19,10 +19,10 @@ import { faCode } from "@fortawesome/free-solid-svg-icons"
 
 export default function Header() {
   return (
-    <div className='w-screen h-24 border-b-2 border-black px-8'>
+    <div className='w-screen h-24 border-b-2 border-black px-8 bg-gray-700'>
       <nav className="h-full flex items-center gap-x-4">
         <Link href='/'>
-          <FontAwesomeIcon icon={faCode} className="w-10 h-10"/>
+          <FontAwesomeIcon icon={faCode} className="w-10 h-10 text-red-500"/>
         </Link>
       <NavigationMenu>
         <NavigationMenuList>
@@ -66,17 +66,17 @@ type MenuContentProps = {
 function MenuContent({content, parentHref} : MenuContentProps) {
   return (
     <NavigationMenuContent className="w-fit">
-      <ul className='w-[25vw] h-fit rounded-md shadow-lg p-4'>
+      <div className='w-[30rem] h-fit rounded-md shadow-lg p-4 flex gap-x-4 text-nowrap'>
         {content.map(contentItem => {
           return (
-            <li key={contentItem.href} className="hover:opacity-80 hover:underline underline-offset-2">
+            <div key={contentItem.href} className="hover:opacity-80 hover:underline underline-offset-2">
               <Link href={parentHref + contentItem.href}>
                 {contentItem.title}
               </Link>
-            </li>
+            </div>
           )
         })}
-      </ul>
+      </div>
     </NavigationMenuContent>
   )
 }

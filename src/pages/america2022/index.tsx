@@ -21,7 +21,7 @@ export default function America2022() {
         </Card>
         <div className='container'></div>
         <div className='image-container'>
-        <PhotoGallery folderName={'content_america2022'} key={'content_america2022'} />
+        <PhotoGallery folderName={'content_america2022'} key={1} />
         </div>
       </div>
     </>

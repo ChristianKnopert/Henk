@@ -22,9 +22,10 @@ const PhotoGallery: React.FC<PhotoGalleryProps> = ({ folderName }) => {
         setError('Error fetching images');
       }
     }
-
+  
     fetchImages();
   }, [folderName]);
+
 
   if (error) {
     return <div>Error: {error}</div>;
